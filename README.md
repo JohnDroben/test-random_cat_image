@@ -79,11 +79,9 @@ def test_failed_response(monkeypatch):
 Пример вывода при успешном тестировании:
 ```
 ============================= test session starts ==============================
-platform linux -- Python 3.8.10, pytest-7.4.0, pluggy-1.0.0
-rootdir: /project
-collected 2 items
+collecting ... collected 1 item
 
-test.py ..                                                                [100%]
+test.py::test_failed_response PASSED                                     [100%]
 
-============================== 2 passed in 0.02s ===============================
+======================== 1 passed, 1 warning in 0.47s =========================
 ```
